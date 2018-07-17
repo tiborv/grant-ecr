@@ -19,5 +19,9 @@
   "devDependencies": {
     "standard": "*",
     "husky": "^0.14.3"
-  }
+  },
+  "keywords": [
+    "ecr",
+    "aws"
+  ]
 }
