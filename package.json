@@ -1,6 +1,6 @@
 {
   "name": "grant-ecr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mass grant & removal of access to AWS ECR repositories",
   "main": "/bin/grant.js",
   "author": "Tibor Vukovic <vukovic.tibor@gmail.com>",
