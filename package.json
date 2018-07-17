@@ -1,0 +1,23 @@
+{
+  "name": "grant-ecr",
+  "version": "1.0.0",
+  "description": "Mass grant & removal of access to AWS ECR repositories",
+  "main": "/bin/grant.js",
+  "author": "Tibor Vukovic <vukovic.tibor@gmail.com>",
+  "license": "MIT",
+  "bin": "./bin/grant.js",
+  "scripts": {
+    "test": "standard",
+    "precommit": "yarn test"
+  },
+  "dependencies": {
+    "aws-arn-parser": "^1.0.0",
+    "aws-sdk": "^2.275.1",
+    "chalk": "^2.4.1",
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "husky": "^0.14.3"
+  }
+}
