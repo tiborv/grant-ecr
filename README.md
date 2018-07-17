@@ -3,6 +3,11 @@ Grant a user access to ALL AWS ECR repositories of the currently logged in user.
 
 Creates policies on all ECR repositories granting the target user image-pull access.
 
+## Install
+```sh
+  yarn global add grant-ecr
+```
+
 ### Make sure you are logged in as the correct AWS user.
 
 ## Example
